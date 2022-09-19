@@ -42,7 +42,7 @@
 
 .wrapper__navigation{
     display: flex;
-    width: 70%;
+    width: 75%;
     justify-content: space-between;
     align-items: center;
     
@@ -69,6 +69,12 @@
     font-weight: 700;
     font-family: Montserrat;
     /* #737373 */
+
+}
+
+.wrapper_links--onhover:hover{
+    color: #1BA0AB;
+    letter-spacing: 1px;
 
 }
 .wrapper__elements{
@@ -123,6 +129,24 @@
     box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
 }
 
+.wrapper__btn2--hover-mod:hover{
+   background-color: white;
+    background-position: 100% 0;
+    
+    transition: all .4s ease-in-out;
+   
+
+}
+.wrapper__btn2--hover-mod:hover a{
+    color: #1BA0AB;
+    letter-spacing: 2px;
+    font-weight: bolder;
+}
+
+.wrapper__btn2--hover-mod a:hover{
+    letter-spacing: 2px;
+    color: #1BA0AB;
+  }
 .wrapper__btn1 a, .wrapper__btn2 a{
     text-decoration: none;
     font-weight: bold;
@@ -132,7 +156,7 @@
 .wrapper__hero-section{
     display: flex;
     flex-direction: column;
-    width: 80%;
+    width: 85%;
     margin-top: 5rem;
     padding: 100px 0;
 }
@@ -210,20 +234,20 @@ letter-spacing: 0.2px;
    
 }
 
-.main-body__section1{
+.main-body__experts{
     display: flex;
     justify-content: space-around;
-    width: 80%;
+    width: 85%;
     align-items: center;
    
    
 }
-.main-body__section1 figure{
+.main-body__experts figure{
    
     display: flex;
     justify-content: center;
 }
-.main-body__section1 figure img{
+.main-body__experts figure img{
     height: 400px;
     width: 100%;
    
@@ -244,7 +268,7 @@ letter-spacing: 0.2px;
 }
 
 .main-body__line{
-    background-color: red;
+  
     padding: 3px 1px;
     width: 70px;
     border-radius: 5px;
@@ -286,17 +310,21 @@ color: #737373;
     font-weight: bold;
 }
 
-.main-body__section2{
-    width: 80%;
+.main-body__our-team{
+    width: 85%;
     margin-top: 5rem;
     display: flex;
     flex-direction: column;
     gap: 2rem;
+    
+    
 }
 .main-body__team{
     display: flex;
     justify-content: center;
     align-items: center;
+   
+    width: 100%;
 }
 
 .main-body__team-para{
@@ -322,7 +350,7 @@ color: #737373;
 }
 .main-body__team{
     display: flex;
-    gap: 1.3rem;
+    gap: 1.2rem;
 }
 
 .main-body_doctor{
@@ -397,6 +425,12 @@ color: #737373;
     align-items: center;
     gap: 1rem;
     padding-bottom: 30px;
+}
+
+.main-body__socials a img{
+   
+    
+    
 }
 
 
